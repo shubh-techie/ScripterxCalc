@@ -30,7 +30,7 @@ namespace calapi
         {
             services.AddDbContext<DataContext>(options =>
             {
-                options.UseSqlServer(@"Server=(localdb)\mssqllocaldb;Database=Blogging;Integrated Security=True");
+                options.UseSqlServer(@"ConnectionString=Server=(localdb)\mssqllocaldb;Database=Blogging;Integrated Security=True");
             });
             services.AddControllers();
             services.AddSwaggerGen(c =>

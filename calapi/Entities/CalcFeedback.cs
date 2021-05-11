@@ -8,3 +8,4 @@ namespace calapi.Entities
         public string Feedback { get; set; }
         public bool IsLike { get; set; }
     }
+}
